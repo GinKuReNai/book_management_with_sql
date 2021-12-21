@@ -1,0 +1,5 @@
+create table class(
+  classnum int2 not null unique,
+  classname varchar(9) unique,
+  primary key(classnum)
+);

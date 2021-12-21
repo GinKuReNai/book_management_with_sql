@@ -1,0 +1,5 @@
+create table publish(
+  publisher varchar(15) not null unique,
+  pubpage text unique,
+  primary key(publisher)
+);

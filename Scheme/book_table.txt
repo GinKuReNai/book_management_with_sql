@@ -1,0 +1,13 @@
+create table book(
+  title varchar(30) not null,
+  publisher varchar(15) not null,
+  classnum int2,
+  author1 varchar(10),
+  author2 varchar(10),
+  author3 varchar(10),
+  finishdate varchar(10),
+  status char(3),
+  primary key(title, publisher),
+  foreign key(publisher) references publish(publisher),
+  foreign key(classnum) references class(classnum)
+);

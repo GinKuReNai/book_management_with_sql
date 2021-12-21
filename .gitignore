@@ -1,0 +1,5 @@
+database_report.*
+db_report_template.*
+*.eps
+jlisting.sty
+Screenshot/*.eps
